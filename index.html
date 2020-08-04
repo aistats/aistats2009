@@ -1,0 +1,14 @@
+---
+title: Home
+layout: home
+---
+
+<h3>Snowbird Learning Workshop</h3>
+
+<p>The <a href="http://snowbird.djvuzone.org/">Snowbird Learning Workshop</a> will be immediately preceeding and co-located with AI/Stats.  The Learning Workshop will be April 13-16, with a shared oral session on Thursday, April 16.</p>
+
+{% if site.conference.chairs %}
+{% for chair in site.conference.chairs %}
+{% include listchairs.html %}
+{% endfor %}
+{% endif %}

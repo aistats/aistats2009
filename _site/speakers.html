@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Invited Speakers</title>
+  <meta name="description" content="This is the website of the AISTATS conference.
+">
+  <link rel="stylesheet" type="text/css" href="http://localhost:4000/aistats2009/assets/css/aistats.css" />
+  <link rel="shortcut icon" href="http://localhost:4000/aistats2009/assets/images/favicon-aistats.ico" type="image/x-icon">
+  <link rel="icon" href="http://localhost:4000/aistats2009/assets/images/favicon-aistats.ico" type="image/x-icon">  
+  
+  
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+          autoNumber: "AMS"
+        }
+      },
+      tex2jax: {
+      inlineMath: [ ['$','$'] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+    }
+  });
+</script>
+<script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+  <!-- Solution from http://stackoverflow.com/questions/31593297/using-execcommand-javascript-to-copy-hidden-text-to-clipboard -->
+<script type="text/javascript"
+	src="http://localhost:4000/aistats2009/assets/js/copy_input.js">
+</script>
+<script type="text/javascript"
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript"
+        src="http://localhost:4000/aistats2009/assets/js/download.js"></script>
+
+  
+</head>
+
+
+
+
+
+
+<body>
+
+
+<div class="hero-image">
+  <div class="hero-text">
+    <img src="/aistats2009/assets/images/logo-aistats.jpg" alt="[Artificial Intelligence and Statistics Logo]">
+    Artificial Intelligence and Statistics 2010
+  </div>
+</div>
+
+<div class="leftmenu">
+  <nav class="site-nav">
+  <ul id="leftnavlist">
+    <li><a id="home" href="./index.html">Home</a></li>
+    
+    <li><a id="art-expo" href="/aistats2009/artexpo.html">Art Expo</a></li><li><a id="call-for-papers" href="/aistats2009/cfp.html">Call for Papers</a></li><li><a id="invited-speakers" href="/aistats2009/speakers.html">Invited Speakers</a></li><li><a id="key-dates" href="/aistats2009/dates.html">Key Dates</a></li><li><a id="local-information" href="/aistats2009/local.html">Local Information</a></li><li><a id="past-meetings" href="/aistats2009/past.html">Past Meetings</a></li><li><a id="proceedings" href="/aistats2009/proceedings.html">Proceedings</a></li><li><a id="program-committee" href="/aistats2009/committee.html">Program Committee</a></li><li><a id="schedule" href="/aistats2009/schedule.html">Schedule</a></li><li><a id="sponsors" href="/aistats2009/sponsors.html">Sponsors</a></li><li><a id="submission" href="/aistats2009/submit.html">Submission</a></li>
+    
+    
+    <li><a href="http://proceedings.mlr.press/v5/" target="_blank">Proceedings</a></li>
+  </ul>
+</nav>
+
+</div>
+
+
+
+<script type="text/javascript">
+  document.getElementById('invited-speakers').id='leftcurrent';
+</script>
+
+
+
+
+
+
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+                 <h1>AISTATS*09 Invited Speakers</h1>
+<img src="/images/cleveland.jpg" alt="Bill Cleveland" align="left"/> 
+
+<h2>William S. Cleveland</h2>
+<h3>Department of Statistics, Purdue University</h3>
+<b>Data Visualization: Retaining the Information in Data</b>
+<p>Data visualization is critical to data analysis. It retains the
+information in the data.
+
+If a statistical model fitted to a dataset is a poor approximation of
+the patterns in the data, the ensuing inferences based on the model will
+likely be incorrect.  Visualization is the critical methodology for model
+checking and revision.  It is not sufficient to simply optimize a numeric
+model selection criterion to find the best model in a class because it
+is possible that no model in the class fits the data.
+
+<p>If a machine learning method is to be used for a task such as
+classification, an understanding of the patterns in the data through
+visualization helps determine which classification methods are likely to
+work best.  Using the best performer out of a number of machine learning
+methods, without checking patterns, is not sufficient because it is
+possible that all tested methods perform poorly compared with methods
+not tried, including new methods developed on the spot to take advantage
+of the patterns discovered by the data visualization.
+
+<p>Visualization and numeric methods of statistics and machine learning
+go hand in hand in the analysis of a set of data. The numeric methods
+exploit the immense tactical power of the computer in analyzing the
+data. Visualization exploits the immense strategic power of the human
+in analyzing the data.  The combination provides the best chance to
+preserve the information in the data. This combination was the basis of
+the controversy that arose in Kasparov vs. the machine learning algorithm
+Deep Blue.
+
+<p>The merger of numeric methods and visualization is illustrated by ed,
+a new method of nonparametric density estimation. There are two goals
+in its design: estimation that adapts to a wide range of patterns in
+data, and a mechanism that allows effective diagnostic checking with
+visualization tools to see if ed did a good job.
+
+<p>Very large datasets, ubiquitous today, challenge data visualization
+as they do all areas involved in the analysis of data.  Comprehensive
+visualization that preserves the information in the data requires a
+visualization database (VDB): many displays, some with many pages and
+with one or more panels per page. A single display typically results from
+breaking the data into subsets, and then using the same graphical method
+to plot each subset, one per panel.  A VDB is queried on an as needed
+basis with a viewer. Some displays might be studied in their entirety;
+for others, studying only a small fraction of the pages might suffice.
+On-the-fly computation without storage does not generally succeed because
+computation time is too large.
+
+<p>The sizes and numbers of displays of VDBs require a rethinking all
+areas involved in data visualization, including the following: Methods
+of display design that enhance pattern perception to enable rapid page
+scanning; Automation algorithms for basic display elements such as the
+aspect ratio, scales across panels, line types and widths, and symbol
+types and sizes; Methods for subset view selection; Viewers designed
+for multi-panel, multi-page displays that work with different amounts
+of physical screen space.
+
+<p><b>Bio:</b>William S. Cleveland is the Shanti S. Gupta Distinguished Professor
+of Statistics and Courtesy Professor of Computer Science at Purdue
+University. His areas of methodological research are in statistics,
+machine learning, and data visualization.
+
+<p>Cleveland has analyzed data sets ranging from very small to very large in
+his research in computer networking, homeland security, visual perception,
+environmental science, healthcare engineering, and customer opinion
+polling.  In the course of this work he has developed many new methods
+that are widely used throughout engineering, science, medicine, and business.
+
+<p>In 2002 he was selected as a Highly Cited Researcher by the American
+Society for Information Science &amp; Technology in the newly formed
+mathematics category. In 1996 he was chosen national Statistician of the
+Year by the Chicago Chapter of the American Statistical Association.
+He is a Fellow of the American Statistical Association, the Institute
+of Mathematical Statistics, the American Association of the Advancement
+of Science, and the International Statistical Institute.
+<br>
+
+<img src="/images/carvalho.jpg" alt="Carlos Cleveland" align="left"/> 
+<h2>Carlos M. Carvalho</h2>
+<h3>Booth School of Business, University of Chicago</h3>
+<b>Handling Sparsity via the Horseshoe</b>
+<p>In this talk, I will present a new approach to sparse-signal detection
+called the horseshoe estimator.  The horseshoe is a close cousin of the
+lasso in that it arises from the same class of multivariate scale
+mixtures of normals, but that it is more robust alternative at handling
+unknown sparsity patterns.  A theoretical framework is proposed for
+understanding why the horseshoe is a better default sparsity estimator
+than those that arise from powered-exponential priors.  Comprehensive
+numerical evidence is presented to show that the difference in
+performance can often be large.  Most importantly, I will show that the
+horseshoe estimator corresponds quite closely to the answers one would
+get if one pursued a full Bayesian model-averaging approach using a
+point mass at zero for noise, and a continuous density for signals.
+Surprisingly, this correspondence holds both for the estimator itself
+and for the classification rule induced by a simple threshold applied to
+the estimator.  For most of this talk I will study sparsity in the
+simplified context of estimating a vector of normal means. It is here
+that the lessons drawn from a comparison of different approaches for
+modeling sparsity are most readily understood, but these lessons
+generalize straightforwardly to more difficult problems--regression,
+covariance regularization, function estimation--where many of the
+challenges of modern statistics lie. This is join work with Nicholas
+Polson and James Scott.
+<br>
+<br>
+<b>Bio:</b> Dr. Carvalho is an assistant professor of econometrics and statistics at The
+University of Chicago Booth School of Business. Before coming to
+Chicago, he was part of the Department of Statistical Sciences at Duke
+University, first as a Ph.D. student followed by a Post-doc under the
+supervision of Professor Mike West. His research focuses on Bayesian
+statistics in complex, high-dimensional problems with applications
+ranging from finance to genetics. Some of his current interests include
+work on large-scale factor models, graphical models, Bayesian model
+selection, sequential Monte Carlo methods and stochastic volatility
+models.
+<hr>
+<img src="/images/fp1.1b.jpg" alt="Mark Hansen" align="left"/> 
+<h2>Mark H. Hansen</h2>
+<h3>Department of Statistics, UCLA</h3>
+<b>Words to look at, words to listen to</b>
+<p>I will report on some recent collaborative artworks that draw on
+dynamic data sources. I will spend most of my time on Moveable Type,
+a large installation for the lobby of the New York Times building in 
+New York City (co-created with Ben Rubin, EAR Studio). In this case, the data 
+sources include a feed of the Times' news stories, an hourly dump of their web access and 
+search logs (a sample, suitably anonymized), and the complete archive back to 1851. 
+I will also spend  time on a new work, Exits, which is part of the Terre Natale exhibition 
+at the Cartier Foundation in Paris (co-created with Diller Scofidio + Renfro, Laura Kurgan
+and Ben Rubin). The centerpiece of our installation is a large, circular
+projection that tells the story of global human migration and its causes. 
+<br><br>
+<p><b>Bio:</b> Mark Hansen is an Associate Professor of Statistics at UCLA, where
+he also holds joint appointments in the departments of Electrical Engineering
+and Design|Media Art. He is currently serving as Co-PI at CENS, the Center
+for Embedded Networked Sensing, an NSF STC devoted to research into
+the design and deployment of sensor networks. 
+<br>
+
+      </div>
+    </main>
+
+
+<body>
+  <div id="content">
+    <center>This site last compiled Tue, 04 Aug 2020 14:54:08 +0200</center>
+
+    <table width="100%">
+      <tr>
+	<td align="left"><font size="-1">
+	    <i><a href="https://github.com/aistats/aistats2009">Github Account</a></i></font></td>
+	<td align="right"><font size="-1">
+	    Copyright &copy <a href="http://localhost:4000">AISTATS</a> 2020. All rights reserved.</font></td>
+      </tr>
+    </table>
+  </div>
+</body>
+
+
+
+
+
+</body>
+
+</html>
