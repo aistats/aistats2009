@@ -35,14 +35,14 @@ conference:
   proceedings:
     url: http://proceedings.mlr.press/v5/
     show: true
-  room: Room
+  room: 
   venue: Hilton Clearwater Beach Resort
   venue_url: http://www.clearwaterbeachresort.com/
   location: Clearwater Beach, Florida, USA
   full_name: Artificial Intelligence and Statistics
   short_name: AISTATS
   name: Artificial Intelligence and Statistics
-  year: 2010
+  year: 2009
   instance: 12th
   styling: International Conference on
   dates:
