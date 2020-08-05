@@ -51,8 +51,8 @@ conference:
   chairs:
   - type: Program Chairs
     people:
-    - family: David
-      given: van Dyk
+    - family: van Dyk
+      given: David
       institute: University of California, Irvine
       url: http://www.ics.uci.edu/~dvd/
     - family: Welling
