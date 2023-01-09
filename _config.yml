@@ -28,53 +28,6 @@ banner: resort.jpg
 # Build settings
 markdown: kramdown
 
-conference:
-  draft: false # set to True if the programme is draft only.
-  image: main.jpg
-  hide_tentative: true
-  proceedings:
-    url: http://proceedings.mlr.press/v5/
-    show: true
-  room: 
-  venue: Hilton Clearwater Beach Resort
-  venue_url: http://www.clearwaterbeachresort.com/
-  location: Clearwater Beach, Florida, USA
-  full_name: Artificial Intelligence and Statistics
-  short_name: AISTATS
-  name: Artificial Intelligence and Statistics
-  year: 2009
-  instance: 12th
-  styling: International Conference on
-  dates:
-  - 2009-04-16
-  - 2009-04-18
-  chairs:
-  - type: Program Chairs
-    people:
-    - family: van Dyk
-      given: David
-      institute: University of California, Irvine
-      url: http://www.ics.uci.edu/~dvd/
-    - family: Welling
-      given: Max
-      institute: University of California, Irvine
-      url: http://www.ics.uci.edu/~welling
-  - type: Fundraising Chair
-    people:
-    - family: Sutton
-      given: Charles
-      institute: University of Edinburgh
-  - type: Publicity Chair
-    people:
-    - family: Ihler
-      given: Alexander
-      institute: University of California, Irvine
-  - type: Publications Chair
-    people:
-    - family: Alvarez
-      given: Mauricio
-      institute: University of Manchester
-
 # change encoding for the generated output files to utf-8
 encoding: utf-8
 
